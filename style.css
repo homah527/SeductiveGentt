@@ -17,6 +17,7 @@ h1 {
 .whatsapp-link {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #ffffff;
   background-color: #25D366;
@@ -24,6 +25,7 @@ h1 {
   border-radius: 8px;
   font-size: 18px;
   transition: background-color 0.3s;
+  text-align: center;
 }
 
 .whatsapp-link:hover {
@@ -35,4 +37,16 @@ h1 {
   width: 24px;
   height: 24px;
   vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .whatsapp-link {
+    padding: 12px 24px;
+  }
 }
